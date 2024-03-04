@@ -1,0 +1,282 @@
+:root {
+  --font-family: "Roboto", sans-serif;
+  --second-family: "Raleway", sans-serif;
+  --link-color_hover: #4d5ae5;
+  --iris: #4d5ae5;
+  --ocean: #404bbf;
+  --navy-blue: #2e2f42;
+  --green: #31d0aa;
+  --slate: #434455;
+  --light-slate: #8e8f99;
+  --cornflower: #e7e9fc;
+  --cloud: #f4f4fd;
+  --navy-blue-modal: rgba(46, 47, 66, 0.4);
+  --grey: rgba(46, 47, 66, 0.7);
+  --white: #fff;
+  --dairy: #fcfcfc;
+}
+
+p,
+ul,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+  margin: 0;
+}
+
+body {
+  font-family: var(--font-family);
+  color: #434455;
+}
+.section {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+.container {
+  width: 1158px;
+}
+
+.global-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  border-bottom: 1px solid #e7e9fc;
+  width: 1440px;
+  height: 72px;
+}
+.contacts{
+  color: var(--slate);
+}
+h1 {
+  width: 496;
+  height: 120;
+  color: white;
+}
+.nav-section ul {
+  display: flex;
+  justify-content: space-around;
+}
+.hero {
+  display: flex;
+  justify-content: center;
+  align-content: stretch;
+  align-items: flex-end;
+  align-items: center;
+  text-align: center;
+  width: 1440px;
+  height: 600px;
+  top: 72px;
+  background: linear-gradient(#2E2F42B2, #2E2F42B2), url("../images/main.page/people-office 1.jpg");
+
+}
+
+.icons-list{
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+}
+.icons-list .icon svg{
+width: 20px;
+height: 20px;
+
+}
+
+.icons-list .icon{
+  width: 44px;
+  height: 44px;
+  background-color: #404bbf;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.first-section-icons{
+  display: flex;
+  justify-content: space-between;
+}
+
+.first-section ul {
+  display: flex;
+  width: 1128px;
+ max-height: height: 104px;
+  top: 792px;
+  left: 156px;
+  padding: 0%;
+}
+.first-section-title {
+  margin-bottom: 24px;
+  margin-left: 24px;
+}
+.first-section-text {
+  margin-left: 24px;
+}
+.second-section ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1128px;
+  height: 412px;
+  top: 1016px;
+  left: 156px;
+}
+.third-section ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1440px;
+  height: 732px;
+  top: 1548px;
+}
+.filters ul {
+  display: flex;
+  justify-content: center;
+  width: Hug (586px);
+  height: Hug (48px);
+  top: 168px;
+  left: 427px;
+  gap: 24px;
+}
+ul {
+  list-style-type: none;
+}
+
+/*Webstudio logo*/
+.web {
+  color: #4d5ae5;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  
+}
+.studio {
+  color: black;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+ 
+}
+.studio-second{
+  color: white;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+
+}
+
+/*Webstudio logo*/
+
+.global-header .main-nav a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #2e2f42;
+  text-decoration: none;
+}
+
+.global-header .main-nav a:hover {
+  color: var(--link-color_hover);
+}
+
+.social a {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+
+.social a:hover {
+  color: #404bbf;
+}
+
+p {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+}
+.filters .button {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.button:hover {
+  background-color: #4d5ae5;
+}
+
+.order-button {
+  border-radius: 4px;
+  padding: 16px 32px;
+  width: 169px;
+  height: 56px;
+  box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+}
+
+.order-button:hover {
+  background-color: #4d5ae5;
+}
+
+.portofolio-section-one ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1128px;
+  height: 420px;
+  top: 288px;
+  left: 156px;
+  border: 1px;
+}
+.portofolio-section-two ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1128px;
+  height: 420px;
+  top: 756px;
+  left: 156px;
+  border: 1px;
+}
+.portofolio-last-section ul {
+  display: flex;
+  justify-content: space-between;
+  width: 1128px;
+  height: 420px;
+  top: 1224px;
+  left: 156px;
+  border: 1px;
+}
+.customers-icons{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer {
+  width: 1440px;
+  height: 312px;
+  top: 2280px;
+  background-color: var(--navy-blue);
+}
+.portofolio-image{
+  flex-grow: 1;
+  border-bottom: 1px solid #e7e9fc;
+}
+.footer-text{
+  color: var(--cloud);
+  
+}
